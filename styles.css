@@ -1,11 +1,16 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .image{
-    border: 5px solid green;
-    border-radius: 10px;
+    border-radius: 5px;
     height: 400px;
+}
+
+.image:hover {
+    transform: translateX(2em);
+    transition: 1s ease;
 }
 
 .link-button {
