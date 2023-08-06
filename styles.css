@@ -1,9 +1,17 @@
 body {
     background-color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
 }
 
-.image{
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    gap: 50px;
+}
+
+.image {
     border-radius: 5px;
     height: 400px;
 }
@@ -23,7 +31,7 @@ body {
     box-shadow: 2px 3px #888888;
 }
 
-h1{
+h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(208, 14, 14);
